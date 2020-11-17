@@ -1,3 +1,24 @@
 // Place all the styles related to the Tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+ul {
+list-style-type: none;
+padding-left: 0px;
+}
+
+li {
+  padding: 10px 0px;
+}
+
+.disable-click {
+  pointer-events: none;
+}
+
+body {
+  font-family: "arial"
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
